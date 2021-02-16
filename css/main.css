@@ -104,7 +104,7 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
   margin: 3%;
 }
@@ -162,7 +162,7 @@ span {
   line-height: 1.5em;
   background-color: black;
   padding: 1em;
-  height: 90%;
+  height: auto;
   width: 30%;
 }
 
@@ -188,6 +188,15 @@ ul img {
   margin: 0 auto;
   padding-left: 20%;
 }
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+}
+
 
 /* ==========================================================================
    Helper classes
